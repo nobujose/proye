@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-const InicioUsuario = () => {
+export const InicioUsuario = () => {
 
 
   const [transfers, setTransfers] = useState([
@@ -83,4 +83,4 @@ const InicioUsuario = () => {
   )
 }
 
-export default InicioUsuario
+

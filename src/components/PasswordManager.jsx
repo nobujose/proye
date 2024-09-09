@@ -1,6 +1,6 @@
 import React, { useState } from 'react';  
 
-const PasswordManager = () => {  
+export const PasswordManager = () => {  
   const [currentPassword, setCurrentPassword] = useState('');  
   const [newPassword, setNewPassword] = useState('');  
   const [confirmPassword, setConfirmPassword] = useState('');  
@@ -65,4 +65,3 @@ const PasswordManager = () => {
   );  
 };  
 
-export default PasswordManager;

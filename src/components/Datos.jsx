@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Datos = () => {
+export const Datos = () => {
   return (
     <div className="flex flex-col h-screen font-['Montserrat_Alternates']">
       
@@ -52,4 +52,4 @@ const Datos = () => {
   )
 }
 
-export default Datos
+

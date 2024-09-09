@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tranfe = () => {
+export const Tranfe = () => {
   return (
     <div>
       <h2>transferencia</h2>
@@ -8,4 +8,3 @@ const Tranfe = () => {
   )
 }
 
-export default Tranfe
